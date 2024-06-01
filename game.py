@@ -11,7 +11,7 @@ used_w_cards = set()  # tracks the white cards used
 # to check if white cards has been used
 # or just create a global hashset and check if it has been there or not
 
-
+#
 #################################################################
 # a player that keeps track of their username, points, and hand #
 #################################################################
