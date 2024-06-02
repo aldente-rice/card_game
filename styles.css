@@ -6,12 +6,21 @@ body {
     background-color: #470A07;
 }
 
-button {
+button.menu {
     border: none;
     background: none;
     margin: none;
     padding: none;
-    cursors: pointer;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button.back {
+    border: none;
+    background: none;
+    margin: none;
+    padding: none;
     color: white;
     font-size: 15px;
     font-weight: bold;
