@@ -9,6 +9,9 @@ body {
 button {
     border: none;
     background: none;
+    margin: none;
+    padding: none;
+    cursors: pointer;
     color: white;
     font-size: 15px;
 }
