@@ -5,3 +5,10 @@ h1 {
 body {
     background-color: #470A07;
 }
+
+button {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 15px;
+}
