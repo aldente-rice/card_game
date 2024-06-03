@@ -14,7 +14,7 @@ button {
     color: white;
     font-size: 25px;
     font-weight: bold;
-    cursor: auto;
+    cursor: pointer;
 }
 
 div button{
@@ -25,5 +25,5 @@ div button{
     color: white;
     font-size: 15px;
     font-weight: bold;
-    cursor: auto;
+    cursor: pointer;
 }
