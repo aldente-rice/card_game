@@ -1,6 +1,8 @@
 h1 {
     color: white;
     font-size: 50px;
+    padding-top: 0px;
+    padding-left: 0px;
 }
 
 body {
@@ -18,13 +20,16 @@ button {
     cursor: pointer;
 }
 
+/* this is for the 'back' buttons */
 div button {
     border: none;
     background: none;
     margin: none;
     padding: none;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     cursor: pointer;
+    position: absolute;
+    top: 870; left: 10;
 }
