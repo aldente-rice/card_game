@@ -33,3 +33,10 @@ div button {
     position: absolute;
     top: 870; left: 10;
 }
+
+display {
+    display: grid;
+    margin: auto;
+    background-color: white;
+    height: 80%; width: 99%;
+}
