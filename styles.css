@@ -18,13 +18,13 @@ button {
     cursor: pointer;
 }
 
-div button{
+div button {
     border: none;
     background: none;
     margin: none;
     padding: none;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     cursor: pointer;
 }
