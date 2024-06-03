@@ -6,17 +6,18 @@ body {
     background-color: #470A07;
 }
 
-button.menu {
+button {
     border: none;
     background: none;
     margin: none;
     padding: none;
     color: white;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
+    cursor: auto;
 }
 
-button.back {
+div button{
     border: none;
     background: none;
     margin: none;
@@ -24,4 +25,5 @@ button.back {
     color: white;
     font-size: 15px;
     font-weight: bold;
+    cursor: auto;
 }
