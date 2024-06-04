@@ -2,7 +2,7 @@ import random
 import tkinter
 
 MAX_HAND = 5
-red_repeat = False
+global red_repeat
 wildcard = False
 used_w_cards = set()  # tracks the white cards used
 
@@ -82,8 +82,16 @@ def deal_full_white(player):
     white_file.close()
 
 
+#################################################
+# starts the game (first in single player mode) #
+#################################################
 def play():
-    game = tkinter.Tk()
+    player1 = Player("b", 0)
+    deal_full_white(player1)
+    deal_red()
+
+
+
 
 
 
