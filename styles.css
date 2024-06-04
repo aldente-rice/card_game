@@ -9,7 +9,7 @@ body {
     background-color: #470A07;
 }
 
-button {
+.menu button {
     border: none;
     background: none;
     margin: none;
@@ -20,8 +20,7 @@ button {
     cursor: pointer;
 }
 
-/* this is for the 'back' buttons */
-.back button {
+#back {
     border: none;
     background: none;
     margin: none;
@@ -48,4 +47,19 @@ display {
     position: absolute;
     top: 100px; left: 15px;
     /*text-size-adjust: auto;*/
+}
+
+#username {
+    background: none;
+    border: transparent;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#username_box {
+    background: none;
+    color: white;
+    border-style: none;
+    border-bottom-style: solid;
 }
